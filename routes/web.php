@@ -12,5 +12,29 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
+});
+
+Route::get('/login', function () {
+    return view('login');
+});
+
+Route::get('/registro', function () {
+    return view('registro');
+});
+
+Route::get('/perfil', function () {
+    return view('perfil');
+});
+
+Route::get('/datos', function () {
+    return view('datos');
+});
+
+Route::get('/busqueda', function () {
+    return view('busqueda');
+});
+
+Route::get('/busqueda-detalle', function () {
+    return view('item_busqueda');
 });

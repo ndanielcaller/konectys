@@ -1,0 +1,71 @@
+.header .navbar-default .navbar-nav > li > a:hover, .header .navbar-default .navbar-nav > .active > a {
+    border-bottom: solid 2px #9b6bcc;
+    color: #9b6bcc;
+}
+
+.job-img-inputs input, .job-img-inputs select{
+    min-width: 250px;
+    border-left: none;
+}
+
+.job-img {
+		overflow: hidden;
+		position: relative;
+		min-height: 300px;
+		background: url(../img/job/1.jpg) 70% 40% no-repeat;
+}
+
+.job-img .job-banner {
+    background: rgba(255,255,255,0.45);
+}
+
+.job-img .job-banner h2 {
+    color: #333;
+}
+
+.form-inline .input-group .input-group-addon {
+    width: auto;
+}
+
+.job-img-inputs .btn-lg{
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+    height: 46px;
+}
+
+
+.title-box {
+    padding: 10px 0 10px;
+}
+
+a.service-block-link:hover, a.service-block-link:visited, 
+a.service-block-link:link, a.service-block-link:active {
+	text-decoration: none;
+}
+
+.servive-block {
+   min-height: 174px;
+}
+
+.reg-page .btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+    height: 46px;
+}
+
+.panel-body.form-horizontal .form-group{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Add here all your css styles (customizations) */
+@media (max-width: 999px) {
+	.navbar-responsive-collapse .hidemobile{
+		display: none;
+	}
+
+}
